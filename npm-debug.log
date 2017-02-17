@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/chrisjordan/.nvm/versions/node/v6.7.0/bin/node',
+1 verbose cli   '/Users/chrisjordan/.nvm/versions/node/v6.7.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'normalize.css' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData normalize.css
+8 silly fetchOtherPackageData normalize.css
+9 silly cache add args [ 'normalize.css', null ]
+10 verbose cache add spec normalize.css
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'normalize.css',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: 'normalize.css',
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'normalize.css',
+11 silly cache add   spec: '/Users/chrisjordan/Documents/static-comp2/normalize.css',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) da39a3ee5e6b4b0d3255bfef95601890afd80709
+13 verbose addTmpTarball /Users/chrisjordan/Documents/static-comp2/normalize.css not in flight; adding
+14 verbose correctMkdir /Users/chrisjordan/.npm correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from /Users/chrisjordan/Documents/static-comp2/normalize.css
+16 verbose tar unpack /Users/chrisjordan/Documents/static-comp2/normalize.css
+17 verbose tar unpacking to /var/folders/rs/d67qy4p1373c6h0xhbwkzwp00000gn/T/npm-8923-8f59cce0/unpack-5c802da4
+18 silly gentlyRm /var/folders/rs/d67qy4p1373c6h0xhbwkzwp00000gn/T/npm-8923-8f59cce0/unpack-5c802da4 is being purged
+19 verbose gentlyRm don't care about contents; nuking /var/folders/rs/d67qy4p1373c6h0xhbwkzwp00000gn/T/npm-8923-8f59cce0/unpack-5c802da4
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error tar.unpack error reading /Users/chrisjordan/Documents/static-comp2/normalize.css
+22 error addLocal Could not install /Users/chrisjordan/Documents/static-comp2/normalize.css
+23 silly fetchPackageMetaData Error: 0-byte tarball
+23 silly fetchPackageMetaData Please run `npm cache clean`
+23 silly fetchPackageMetaData     at /Users/chrisjordan/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/utils/tar.js:276:14
+23 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+23 silly fetchPackageMetaData  error for normalize.css Error: 0-byte tarball
+23 silly fetchPackageMetaData Please run `npm cache clean`
+23 silly fetchPackageMetaData     at /Users/chrisjordan/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/utils/tar.js:276:14
+23 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+24 silly rollbackFailedOptional Starting
+25 silly rollbackFailedOptional Finishing
+26 silly runTopLevelLifecycles Starting
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: 0-byte tarball
+29 verbose stack Please run `npm cache clean`
+29 verbose stack     at /Users/chrisjordan/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/utils/tar.js:276:14
+29 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+30 verbose cwd /Users/chrisjordan/Documents/static-comp2
+31 error Darwin 16.4.0
+32 error argv "/Users/chrisjordan/.nvm/versions/node/v6.7.0/bin/node" "/Users/chrisjordan/.nvm/versions/node/v6.7.0/bin/npm" "install" "normalize.css"
+33 error node v6.7.0
+34 error npm  v3.10.3
+35 error 0-byte tarball
+35 error Please run `npm cache clean`
+36 error If you need help, you may report this error at:
+36 error     <https://github.com/npm/npm/issues>
+37 verbose exit [ 1, true ]

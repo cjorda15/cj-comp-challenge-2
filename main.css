@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d3cbcb
+}
+
+header {
+    margin: 0px;
+    width: 100%;
+    height: 110px;
+    background-color: #2b2b2b;
+    position relative;
+}
+
+.title {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    background-color: #d3cbcb;
+    font-family: sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background-color: #d3cbcb;
+}
+
+.logo-login{
+  float:right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  color:white;
+  padding-right: 20px;
+}
+.logo-login a{
+  font-weight: 300;
+  text-decoration: none;
+  color:#2f96d6;
+  padding:5px;
+}
+.logo-login a:hover{
+color:#e8fc0c;
+
+}
+.login img{
+  position: relative;
+  top: 5px;
+  width:30px;
+  height:30px;
+}
+
+
+nav{
+  display: flex;
+  width:300px;
+  position: absolute;
+  top:70px;
+  left:20px;
+  padding-left: 5px;
+}
+
+.logo-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+h1{
+  font-weight: 300;
+  font-size: 40px;
+}
+h1 img{
+  width:60px;
+  height:60px;
+}
+
+li{
+  font-size: 11px;
+  flex:1;
+  font-weight: 300;
+  color:white;
+  display: inline-block;
+}
+
+li img{
+  position: relative;
+  top:5px;
+  width:15px;
+  height:15px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 245px;
+    height: 350px;
+    margin: 3px;
+  }
+
+.card-top {
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card-middle {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #AEEEEE;
+}
+
+.card-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ACD1E9;
+}
+
+.containing-arrow-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+
+#card-top-1 {
+    background-image: url(images/beatles-620x336.jpg);
+}
+
+#card-top-2 {
+    background-image: url(images/ade352b05583a1a6c954071848cb1c9a.jpg);
+}
+
+#card-top-3 {
+    background-position: bottom;
+    background-image: url(images/doors.jpeg);
+}
+
+#card-top-4 {
+    background-image: url(images/pink.png);
+}
+
+#card-top-5 {
+    background-position: center;
+    background-image: url(images/bob.jpeg);
+
+}
+
+#card-top-6 {
+    background-position: center;
+    background-image: url(images/star.jpeg);
+}
+
+#card-top-7 {
+    background-image: url(images/modest.jpeg);
+}
+
+#card-top-8 {
+    background-image: url(images/images.jpeg);
+}
+
+.forward-arrow {
+  height: 30px;
+  width: 30px;
+  display: block;
+}
+
+.views{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10px;
+  top:10px;
+  color: #BA51F1;
+  text-shadow:  -1px 0 #AEEEEE, 0 1px #AEEEEE, 1px 0 #AEEEEE, 0 -1px #AEEEEE;
+}
+.views-count{
+  font-size: 25px;
+}
+
+.receipient{
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+}
+.date{
+  font-size: 11px;
+  color: #BA51F1;
+}
+
+.site-container{
+  display: flex;
+  height: 35px;
+}
+
+.site{
+  margin: 0px auto;
+  width: 90%;
+  font-size: 13px;
+  background-color:#DBDAD8;
+  word-break: break-all;
+}
+
+.playlist{
+  flex:1;
+font-size: 12px;
+font-weight:300;
+padding-top: 5px;
+display: flex;
+flex-direction: column;
+padding:10px 0px 10px 15px}
+
+.playlist-name{
+  font-size: 16px;
+}
+.attachments{
+  padding-top: 15px;
+  margin: 0px auto;
+  font-weight: 300;
+  width: 90%;
+}
+.attachments-number{
+font-size:25;
+color: #BA51F1;
+text-shadow:  -1px 0 #AEEEEE, 0 1px #AEEEEE, 1px 0 #AEEEEE, 0 -1px #AEEEEE;
+}
+
+
+@media (max-width:675px) {
+
+nav{
+  width:250px;
+}
+li{
+  font-size: 8px;
+}
+.logo-container{
+  display: block;
+}
+.logo-login{
+  float:none;
+flex-direction: row;
+}
+.logo{
+font-size:25px;
+margin 0px 5px;  }
+.logo h1{
+  height: 30%;
+  margin-top: 20px;
+  padding:5px;
+}
+
+  #koala-image{
+    width:80px;
+    height:90px;
+}
+
+
+
+}
+
+@media (max-width:390px ){
+  nav{
+    width:150px;
+  }
+
+  li span{
+    display: none;
+  }
