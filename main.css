@@ -228,6 +228,8 @@ width:190px;
 }
 
 .receipient {
+    max-height: 70px;
+    overflow: hidden;
     padding-left: 10px;
     font-size: 16px;
     font-weight: 300;
@@ -245,6 +247,8 @@ width:190px;
 }
 
 .site {
+    max-height: 40px;
+    overflow: hidden;
     margin: 0px auto;
     width: 90%;
     font-size: 13px;
@@ -259,11 +263,13 @@ width:190px;
     padding-top: 5px;
     display: flex;
     flex-direction: column;
-    padding: 10px 0px 10px 15px
+    padding: 10px 0px 10px 15px;
 }
 
 .playlist-name {
     font-size: 16px;
+    max-height: 18px;
+    overflow: hidden;
 }
 
 .attachments {
