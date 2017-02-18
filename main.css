@@ -105,6 +105,14 @@ li img {
     height: 15px;
 }
 
+#title-shares{
+background-color: white;
+text-indent: 10px;
+border-radius: 90px 90px 90px 90px;
+text-shadow: -1px 0 #aeaeae, 0 1px #aeaeae;
+width:190px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -211,7 +219,6 @@ li img {
 
 .date {
     font-size: 11px;
-    color: #BA51F1;
 }
 
 .site-container {
@@ -223,7 +230,7 @@ li img {
     margin: 0px auto;
     width: 90%;
     font-size: 13px;
-    background-color: #DBDAD8;
+    background-color: rgb(0, 180, 180);
     word-break: break-all;
 }
 
