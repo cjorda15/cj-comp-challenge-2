@@ -30,7 +30,8 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;;
+    margin-left: 75px;
     align-items: center;
     max-width: 1200px;
     background-color: #d3cbcb;
@@ -86,7 +87,7 @@ nav {
 }
 
 h1 {
-    color:  #AEEEEE;
+    color:  #d3cbcb;
     font-weight: 300;
     font-size: 37px;
 }
@@ -116,7 +117,7 @@ li img:hover{
 }
 
 #title-shares{
-background-color: white;
+background-color: #FFF;
 text-indent: 10px;
 border-radius: 90px 90px 90px 90px;
 text-shadow: -1px 0 #aeaeae, 0 1px #aeaeae;
@@ -143,14 +144,14 @@ width:190px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #AEEEEE;
+    background-color: #FFFFFF;
 }
 
 .card-bottom {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: #ACD1E9;
+    background-color: #FFFFFF;
 }
 
 .containing-arrow-img {
@@ -165,11 +166,11 @@ width:190px;
 }
 
 #card-top-1 {
-    background-image: url(images/beatles-620x336.jpg);
+    background-image: url(images/beatle1.jpg);
 }
 
 #card-top-2 {
-    background-image: url(images/ade352b05583a1a6c954071848cb1c9a.jpg);
+    background-image: url(images/grateful-dead.jpg);
 }
 
 #card-top-3 {
@@ -178,7 +179,7 @@ width:190px;
 }
 
 #card-top-4 {
-    background-image: url(images/pink.png);
+    background-image: url(images/pinkfloyd.jpg);
 }
 
 #card-top-5 {
@@ -188,15 +189,15 @@ width:190px;
 
 #card-top-6 {
     background-position: center;
-    background-image: url(images/star.jpeg);
+    background-image: url(images/strk.png);
 }
 
 #card-top-7 {
-    background-image: url(images/modest.jpeg);
+    background-image: url(images/modest.jpg);
 }
 
 #card-top-8 {
-    background-image: url(images/images.jpeg);
+    background-image: url(images/grizz.png);
 }
 
 .forward-arrow {
@@ -254,7 +255,7 @@ width:190px;
     margin: 0px auto;
     width: 90%;
     font-size: 13px;
-    background-color: rgb(0, 180, 180);
+    background-color: #d3cbcb;
     word-break: break-all;
 }
 
@@ -287,7 +288,24 @@ width:190px;
     text-shadow: -1px 0 #AEEEEE, 0 1px #AEEEEE, 1px 0 #AEEEEE, 0 -1px #AEEEEE;
 }
 
+@media (min-width:1400px){
+  .logo-login{
+    float:none;
+    margin-left: 1200px;
+    width:180px
+  }
+
+}
+
+
+
 @media (max-width:675px) {
+
+    main{
+      justify-content: center;
+      margin-left: 0px;
+    }
+
     nav {
         width: 250px;
     }
@@ -312,7 +330,7 @@ width:190px;
     }
     #lion-image {
         width: 80px;
-        height: 80px;
+        height: 74px;
     }
 }
 
