@@ -316,6 +316,7 @@ width:190px;
         display: block;
     }
     .logo-login {
+      padding-right: 0px;
         float: none;
         flex-direction: row;
     }
