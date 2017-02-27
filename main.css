@@ -28,10 +28,10 @@ header {
 }
 
 main {
+    margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;;
-    margin-left: 75px;
+    justify-content: center;
     align-items: center;
     max-width: 85%;
     background-color: #d3cbcb;
